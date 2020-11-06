@@ -1,0 +1,156 @@
+.topbar {
+    width           : 100%;
+    height          : 40px;
+    background-color: #000000;
+    color           : #FFFFFF;
+    vertical-align  : middle;
+    position        : relative;
+}
+
+.topbar p {
+    position : absolute;
+    top      : 50%;
+    transform: translate(0, -50%)
+}
+
+.caro img {
+    height          : 800px;
+    width           : 100%;
+    opacity         : 45%;
+    background-color: #000000;
+}
+
+#carouselExampleIndicators {
+    height: 800px;
+}
+
+.overlay {
+    width           : 100%;
+    background-color: rgba(0, 0, 0, 2);
+    z-index         : 2;
+    height          : 800px;
+}
+
+.front {
+    position       : absolute;
+    top            : 40px;
+    width          : 100%;
+    justify-content: center;
+    align-items    : center;
+}
+
+.front img {
+    width       : 92px;
+    position    : relative;
+    top         : 64px;
+    align-items : center;
+    left        : 50%;
+    margin-right: -50%;
+    transform   : translate(-50%, -50%)
+}
+
+.navi {
+    margin-top: 68px;
+}
+
+.navi a {
+    color: #FFFFFF;
+}
+
+.navi .active {
+    text-decoration: underline;
+}
+
+.block {
+    margin-top : 125px;
+    text-align : center;
+    align-items: center;
+}
+
+.block b,
+h5 {
+    color: #FFFFFF;
+}
+
+.block b {
+    font-size : 80px;
+    font-style: italic;
+}
+
+button {
+    color           : #FFFFFF;
+    background-color: #C7BB91;
+    border          : none;
+    border-radius   : 3px;
+    padding         : 8px 28px;
+}
+
+.section2 .content2 {
+    margin: 200px;
+}
+
+.content2 p {
+    color: black;
+}
+
+.content2 img {
+    position: absolute;
+}
+
+#img1 {
+    right : 0;
+    bottom: -50px;
+}
+
+#img2 {
+    right : 0;
+    bottom: 185px;
+}
+
+#img3 {
+    left: 165px;
+}
+
+
+.section4 img {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+}
+
+.section4 {
+    height: 250px;
+}
+
+.overlay4 {
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    z-index: 1;
+    background-color:rgba(0, 0, 0, 0.356);
+}
+
+.block4 {
+    z-index: 2;
+    position: relative;
+    top: 70px;
+}
+
+.block4 b,p {
+    color: #FFFFFF;
+}
+
+.block4 b {
+    font-size: 48px;
+}
+
+.block4 .p1 {
+    font-size: 32px;
+}
+
+.but-more {
+    padding: 10px 60px;
+}
+
+
+

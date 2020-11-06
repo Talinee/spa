@@ -1,0 +1,23 @@
+/* taviraj-regular - latin */
+@font-face {
+    font-family: 'Taviraj';
+    font-style : normal;
+    font-weight: 400;
+    src        : url('../fonts/taviraj-v6-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src        : local('Taviraj Regular'), local('Taviraj-Regular'),
+        url('../fonts/taviraj-v6-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/taviraj-v6-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/taviraj-v6-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/taviraj-v6-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/taviraj-v6-latin-regular.svg#Taviraj') format('svg');
+    /* Legacy iOS */
+}
+
+body {
+    font-family: 'Traviraj';
+}
